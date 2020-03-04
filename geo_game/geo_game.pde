@@ -6,7 +6,7 @@ final int PAUSE = 3;
 final int GAMEOVER = 4;
 
 void setup(){
- size(800, 600);
+ size(1200, 800);
  textAlign(CENTER, CENTER);
  rectMode(CENTER);
 }
@@ -26,3 +26,4 @@ void draw() {
     println("Mode Error: Mode is " + mode);
   }
 }
+  

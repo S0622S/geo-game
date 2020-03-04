@@ -1,0 +1,17 @@
+void mouseReleased() {
+ if (mode == INTRO) {
+    introClicks();
+  } else if (mode == OPTION) {
+    optionClicks();
+  } else if (mode == GAME) {
+    gameClicks();
+  } else if (mode == PAUSE) {
+    pauseClicks();
+  } else if (mode == GAMEOVER) {
+    gameoverClicks();
+  } else {
+    println("Mode Error: Mode is " + mode);
+  } 
+  
+  
+}

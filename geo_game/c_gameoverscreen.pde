@@ -1,0 +1,6 @@
+void gameoverscreen() {
+}
+
+void gameoverClicks() {
+  
+}
